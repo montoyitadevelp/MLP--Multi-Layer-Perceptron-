@@ -2,7 +2,7 @@ name: Pipeline CI/CD MLops
 
 on: 
   pull_request:
-    branches: [ dev ]
+    branches: [ main ]
 
 jobs:
   build_and_test:
