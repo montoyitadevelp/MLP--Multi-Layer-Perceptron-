@@ -1,0 +1,6 @@
+[core]
+    remote = mlp-credit-scoring
+['remote "dataset_credit_scoring"']
+    url = https://dagshub.com/montoyitadevelp/mlp-credit-scoring.dvc
+['remote "mlp-credit-scoring"']
+    url = s3://genia-services-data/mlp-credit-scoring/
