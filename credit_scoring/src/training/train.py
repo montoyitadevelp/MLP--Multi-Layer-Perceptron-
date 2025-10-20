@@ -603,7 +603,7 @@ if __name__ == "__main__":
         log.error(f"Error running the training: {e}", exc_info=True)
         
 """
-execute training file:
+execute training files:
 python src/training/train.py --config config/training/credit_scoring-training_config-german_credit_risk_v100.yaml
 python src/training/train.py --config config/training/credit_scoring-training_config-german_credit_risk_v110.yaml
 python src/training/train.py --config config/training/credit_scoring-training_config-german_credit_risk_v120.yaml
